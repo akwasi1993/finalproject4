@@ -1,0 +1,209 @@
+/* DEVELOPER Adofo Kwasi, IS117-001, Spring 2021 */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+
+}
+body{
+    font-size: 100%;
+    width:100% ;
+    min-height: 100%;
+    background-color: whitesmoke;
+
+}
+
+header{
+    background: brown;
+
+}
+.small img{
+    width: 100px;
+    height: 75px;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+.top-background{
+    background-color:white ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.dropbtn {
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    font-weight: bold;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+.drop-down{
+    float: right;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: whitesmoke;}
+
+.same{
+    text-decoration: none;
+    border-style: none;
+    color: black;
+}
+
+.cart{
+    float: right;
+
+}
+.dropdown img{
+    height: 30px;
+    width: 30px;}
+
+
+.content {
+    display: table-cell;
+    padding: 30px;
+}
+.content p{
+    width: 100%;
+    max-width: 90%;
+    padding-bottom: 5em;
+}
+.content h2{
+    padding-top: 5em;
+}
+.column{
+    display: table;
+    width: 100%;
+}
+.image-content{
+    display: table;
+    padding: 30px;
+
+}
+.a-content{
+    display: table-cell;
+    padding: 30px;
+
+}
+.content img {
+    padding-right: 50px;
+    margin-left: 25px;
+    margin-top: 150px;
+    height: 700px;
+    width: 500px;
+}
+.container{
+
+
+
+}
+.container h5{
+    color: brown;
+
+}
+
+
+
+.card img{
+    width: 40%;
+}
+.container{
+
+}
+aside{
+    text-align: center;
+}
+.footer{
+    background: whitesmoke;
+    text-align: center;
+    padding:20px;
+    margin-top: 40px;
+
+}
+.location{
+    color: black;
+    font-size: 20px;
+    display: inline-block;
+    min-width: 27%;
+    letter-spacing: 5px;
+    font-variant: small-caps;
+    padding: 20px;
+}
+
+.new {
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    font-weight: bold;
+}
+
+.dropdown-cont {
+    position: relative;
+    display: inline-block;
+
+}
+.drop-town{
+    text-align: center;
+    padding: 50px;
+    letter-spacing: 50px;
+}
+.dropdown-cont {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-cont a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-cont a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-cont {display: block;}
+
+.dropdown:hover .new {background-color: whitesmoke;}
+
+.package{
+    text-decoration: none;
+}
+
+.content h2{
+    text-align: center;
+    margin-top: 50px;
+    color: brown;
+}

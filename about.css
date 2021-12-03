@@ -1,0 +1,307 @@
+/* DEVELOPER Adofo Kwasi, IS117-001, Spring 2021 */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+
+}
+body{
+    font-size: 100%;
+    width:100% ;
+    min-height: 100%;
+    background-color: whitesmoke;
+
+}
+
+header{
+    background: brown;
+
+}
+.small img{
+    width: 100px;
+    height: 75px;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+.top-background{
+    background-color:white ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.dropbtn {
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    font-weight: bold;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+.drop-down{
+    float: right;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: whitesmoke;}
+
+.same{
+    text-decoration: none;
+    border-style: none;
+    color: black;
+
+}
+
+
+
+.content {
+    display: table-cell;
+    padding: 30px;
+    height: 400px;
+    width: 600px;
+}
+.content p{
+    width: 100%;
+    max-width: 90%;
+    padding-bottom: 5em;
+}
+.content h2{
+    padding-top: 5em;
+}
+.column{
+    display: table;
+    width: 100%;
+}
+.image-content{
+    display: table;
+    padding: 30px;
+
+}
+.a-content{
+    display: table-cell;
+    padding: 30px;
+
+}
+.content img {
+    width: 600px;
+    height: 400px;
+    padding-right: 50px;
+    margin-left: 25px;
+}
+.vineyard{
+    /*margin-left: 150px;*/
+    padding-left: 170px;
+    margin: 20px;
+}
+form h2{
+    text-align: center;
+    color: brown;
+    padding: 20px;
+
+}
+.slow-motion{
+    text-align: center;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: whitesmoke;
+    cursor: pointer;
+    width: 100%;
+    margin: 0;
+}
+
+.footer{
+    background: whitesmoke;
+    text-align: center;
+    padding:20px;
+    margin-top: 40px;
+
+}
+.location{
+    color: black;
+    font-size: 20px;
+    display: inline-block;
+    min-width: 27%;
+    letter-spacing: 5px;
+    font-variant: small-caps;
+    padding: 20px;
+}
+
+.new {
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    font-weight: bold;
+}
+
+.dropdown-cont {
+    position: relative;
+    display: inline-block;
+
+}
+.drop-town{
+    text-align: center;
+    padding: 50px;
+    letter-spacing: 50px;
+}
+.dropdown-cont {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-cont a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-cont a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-cont {display: block;}
+
+.dropdown:hover .new {background-color: whitesmoke;}
+
+.package{
+    text-decoration: none;
+}
+
+.content h2{
+    text-align: center;
+    margin-top: 50px;
+    color: brown;
+}
+
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+
+}
+
+@media  screen and (max-width: 650px){
+    p{
+        width: 100%;
+        display: block;
+
+    }
+    
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+    background-color: #9933cc;
+    color: #ffffff;
+    padding: 15px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+    background-color: #0099cc;
+}
+
+.aside {
+    background-color: #33b5e5;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+    background-color: #0099cc;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
